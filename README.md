@@ -60,6 +60,20 @@ End with an example of getting some data out of the system or using it for a lit
 
 ```
 
+### Working Format
+```
+#### frontend
+```
+项目中用到的路由放到 frontend/src/router/router.js 
+项目中每个页面当成一个 view(自己取名) 页面放在frontend/src/view文件中
+项目中所有全局配置变量都放到 frontend/src/config/config.js
+项目中每个独立页面用到的组件放到 frontend/src/components/下，自己先建个对应的文件夹名，再将组件放到该文件夹下， 参考 login 页面创建
+项目中公共组件放大 frontend/src/components/public 下，比如 侧边栏等等
+项目中的静态文件，如图片，就放在 frontend/src/assets/images 下， 其他类型静态文件，同理自建文件放大 assets 文件夹下
+注意： 如何工作看 frontend 下的 readme
+``
+
+
 ## Built With
 
 * [Vue.js](https://cn.vuejs.org/v2/guide/) - Web app's frontend.
