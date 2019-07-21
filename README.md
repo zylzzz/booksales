@@ -71,7 +71,7 @@ End with an example of getting some data out of the system or using it for a lit
 项目中公共组件放大 frontend/src/components/public 下，比如 侧边栏等等
 项目中的静态文件，如图片，就放在 frontend/src/assets/images 下， 其他类型静态文件，同理自建文件放大 assets 文件夹下
 注意： 如何工作看 frontend 下的 readme
-``
+```
 
 
 ## Built With
