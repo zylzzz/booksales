@@ -24,21 +24,20 @@ This is a simple book sales system.
 ### Done
 - ✅ Init  
 - Frontend
-    - ✅ Simple front sending static image.
+    - ✅ init project.
     - ✅ Frontend user register and login.
 - Backend
-    - ✅ Deploy python deeplearning model.
     - ✅ User web API.
 
 
 ### TODO
 - Frontend
-    - ❌ Statistical query.
-    - ❌ Simple front sending Specific frame of vedio.
-    - ❌ ...
+    - ❌ 书籍分类
+    - ❌ 书籍排行榜
+    - ❌ 购物车的实现
 
 - Backend
-    - ❌ Create image raw data and information models.  
+    - ❌ 爬取网上图书信息存到数据库里  
     - ❌ ...
 
 
