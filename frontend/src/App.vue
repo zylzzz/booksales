@@ -8,9 +8,18 @@
 
 export default {
   name: 'app',
+  data: () => {
+
+  },
+  created: function() {
+    this.$api.get('topic', null, result => {
+      console.log(result)
+    })
+  },
   components: {
 
-  }
+  },
+
 }
 </script>
 
